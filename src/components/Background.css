@@ -1,0 +1,26 @@
+.background_main{
+    border: 1px solid black ;
+    width: 900px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #222A34;
+    box-shadow: 1px 1px 20px black;
+    position: relative;
+}
+
+.close_x{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+.title{
+    color: white;
+    font-size: 28px;
+    text-align: right;
+    margin-top: 16px;
+    margin-right: 16px;
+}
