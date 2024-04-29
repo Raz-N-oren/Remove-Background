@@ -1,0 +1,12 @@
+.download_img_container{
+    height: 50%;
+}
+
+.download_img_title{
+    color: white;
+    font-family: 'Aduma';
+    font-size: 26px;
+    text-align: right;
+    padding-right: 28px;
+    padding-top: 10px;
+}
