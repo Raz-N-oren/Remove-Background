@@ -1,5 +1,6 @@
 .download_img_container{
     height: 50%;
+    position: relative;
 }
 
 .download_img_title{
@@ -7,6 +8,26 @@
     font-family: 'Aduma';
     font-size: 26px;
     text-align: right;
-    padding-right: 28px;
+    /* padding-right: 28px; */
+    padding-right: 60px;
     padding-top: 10px;
+}
+
+.download_img_subtitle{
+    color: white;
+    font-family: 'Aduma';
+    font-size: 14px;
+    text-align: right;
+    margin-right: 28px;
+
+}
+
+.download_img{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.padding_title{
+    padding-right: 28px;
 }

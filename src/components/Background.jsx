@@ -8,7 +8,7 @@ import DownloadImg from './Download_img';
 const Background = () => {
   return (
     <div className='background_main'>
-        <img className='close_x' src={close_x} />
+        <img className='close_x' src={close_x} alt='close'/>
         <div className='title'>העלאת תמונה כדי להסיר את הרקע</div>
 
         <button className='upload_btn'>העלאת תמונה</button>
@@ -18,8 +18,8 @@ const Background = () => {
 
           <div className='right_div'>
               <div className="right_div_inner">
-                <DownloadImg title='תמונה חינם'></DownloadImg>
-                <DownloadImg title='Pro'></DownloadImg>
+                <DownloadImg title='תמונה חינם' subtitle='תצוגה מקדימה של תמונה 612*408' top='false'></DownloadImg>
+                <DownloadImg title='Pro' subtitle='תמונה מלאה 1280*1920' top='true'></DownloadImg>
               </div>
           </div>
           <div className='left_div'>
