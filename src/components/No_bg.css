@@ -1,0 +1,46 @@
+.no_bg_container{
+    color: white;
+    position: relative;
+}
+
+.no_bg_title{
+    position: absolute;
+    text-align: right;
+    right: 8px;
+    top: 8px;
+    margin-right: 12px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.uploaded_img{
+    height: 330px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.warning_img{
+    position: absolute;
+    right: 4px;
+    top: 20px;
+}
+
+.background_color_button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: transparent;
+    color: #ffffff8f ;
+    border: 1px solid #ffffff80;
+    padding: 7px;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.input_color{
+    opacity: 0;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}

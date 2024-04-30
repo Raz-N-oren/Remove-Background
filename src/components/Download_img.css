@@ -9,7 +9,7 @@
     font-size: 26px;
     text-align: right;
     /* padding-right: 28px; */
-    padding-right: 60px;
+    padding-right: 78px;
     padding-top: 10px;
 }
 
@@ -26,8 +26,39 @@
     position: absolute;
     right: 0;
     top: 10px;
+    margin-right: 18px;
 }
 
 .padding_title{
     padding-right: 28px;
+}
+
+.download_btn{
+    background-color: transparent;
+    border: 1px solid #3F51B5;
+    color: #3F51B5;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 25px;
+    height: 35px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.last_title{
+    color: rgba(255, 255, 255, 0.804);
+    text-align: right;
+    font-size: 10px;
+    margin-right: 32px;
+    margin-top: 20px;
+}
+
+.check_img{
+    position: absolute;
+    top: 129px;
+    right: 14px;
+}
+
+.download_img_container_border{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.464);
 }
