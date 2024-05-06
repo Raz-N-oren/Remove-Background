@@ -5,6 +5,7 @@ import logo from '../assets/logo.png';
 import banner from '../assets/banner.png';
 import DownloadImg from './Download_img';
 import NoBg from './No_bg';
+import Popup from './Popup';
 
 const Background = () => {
 
@@ -53,7 +54,9 @@ const Background = () => {
           <img className='footer_logo' src={logo} alt='logo'/>
           <img className='footer_banner' src={banner} alt='banner'/>
         </div>
-    
+
+        <Popup></Popup>
+
     </div>
   )
 }
