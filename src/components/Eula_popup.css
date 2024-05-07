@@ -1,0 +1,16 @@
+.eula_popup_container{
+    position: absolute;
+    top: 200px;
+    left: 163px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: right;
+    padding: 12px;
+}
+
+.eula_text{
+    margin: 50px 0 30px 20px;
+    padding-right: 26px;
+}

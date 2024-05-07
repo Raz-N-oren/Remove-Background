@@ -4,6 +4,11 @@ import newImage from '../assets/new.png';
 import check from '../assets/check.png';
 
 const DownloadImg = (props) => {
+
+  const onShowPopupClicked = () => {
+    props.show_popup_func();
+  }
+
   return (
     <div className={'download_img_container ' + (props.top ==="false" ? 'download_img_container_border' : '')}>
         <div className={"download_img_title "+ (props.top ==="false" ? " padding_title ": '')}>{props.title} </div>
@@ -12,7 +17,7 @@ const DownloadImg = (props) => {
 
         <div className='download_img_subtitle'>{props.subtitle}</div>
 
-        <button className='download_btn'>{props.btn_txt}</button>
+        <button onClick={onShowPopupClicked} className='download_btn'>{props.btn_txt} </button>
 
         <img src={check} alt="check" className='check_img' />
 
